@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,35 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+:root {
+  --main-bg-color: #041c32;
+  --primary-text-color: #ecb365;
+  --secondary-text-color: rgb(209, 213, 219);
+  --primary-color: #04293a;
+
+  --mybox-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--main-bg-color);
+  color: var(--primary-text-color);
+}
+
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--secondary-text-color);
+}
+
+hr {
+  margin-top: 10px auto;
+  border: solid 1px var(--primary-text-color);
 }

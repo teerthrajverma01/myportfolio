@@ -1,0 +1,13 @@
+.navelements {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.myselficondiv {
+  background-color: var(--primary-text-color);
+  padding: 0 1rem;
+}
+.myselficon {
+  color: var(--main-bg-color);
+}
