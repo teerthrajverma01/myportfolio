@@ -1,0 +1,11 @@
+.skillblocks {
+  margin-left: 1rem;
+}
+
+.indiskills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

@@ -1,3 +1,29 @@
 #myself {
-  background-color: var(--primary-color);
+  padding-top: 0;
+}
+.imageblock {
+  border: 1rem solid var(--main-bg-color);
+  /* border-radius: 50%; */
+  max-width: fit-content;
+  max-height: fit-content;
+  position: relative;
+  top: -4rem;
+  overflow: hidden;
+}
+.myimage {
+  max-width: 10rem;
+  max-height: auto;
+}
+
+.contactitems {
+  display: flex;
+}
+.indi_contactitem {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.indi_contactitem h5,
+.indi_contactitem a {
+  padding-left: 0.5rem;
 }

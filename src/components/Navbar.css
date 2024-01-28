@@ -7,7 +7,11 @@
 .myselficondiv {
   background-color: var(--primary-text-color);
   padding: 0 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
+
 .myselficon {
   color: var(--main-bg-color);
+  font-weight: 800;
 }

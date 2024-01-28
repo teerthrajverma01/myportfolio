@@ -1,0 +1,31 @@
+.projectblock {
+  margin-left: 1rem;
+}
+
+.indiproject {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.indiproject_title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.linkblocks {
+  display: flex;
+  gap: 1rem;
+}
+.linkblock {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.techstack {
+  font-style: italic;
+}

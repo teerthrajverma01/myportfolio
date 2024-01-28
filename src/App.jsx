@@ -6,9 +6,9 @@ import Skills from "./components/Skills.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Education from "./components/Education.jsx";
-import Interest from "./components/Interest.jsx";
 
 import "./App.css";
+
 const App = () => {
   return (
     <Fragment>
@@ -20,7 +20,6 @@ const App = () => {
         <Projects />
         <Experience />
         <Education />
-        <Interest />
       </main>
     </Fragment>
   );
