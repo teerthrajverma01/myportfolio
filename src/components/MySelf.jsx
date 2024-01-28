@@ -11,7 +11,7 @@ import myphoto from "../assets/images/myphoto.jpeg";
 const MySelf = () => {
   return (
     <Fragment>
-      <div id="myself" className="indimainblocks">
+      <div id="MySelf" className="indimainblocks">
         <div>
           <div className="imageblock">
             <img className="myimage" src={myphoto} alt="" />

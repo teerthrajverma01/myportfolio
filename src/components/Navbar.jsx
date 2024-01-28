@@ -27,7 +27,7 @@ const Navbar = () => {
             <a href="#Education">Education</a>
           </div>
           <div className="indnavelement">
-            <a href="#Interest">Interest</a>
+            <a href="#GitIgnore">GitIgnore</a>
           </div>
         </div>
       </nav>

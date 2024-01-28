@@ -6,6 +6,7 @@ import Skills from "./components/Skills.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Education from "./components/Education.jsx";
+import GitIgnore from "./components/GitIgnore.jsx";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ const App = () => {
         <Projects />
         <Experience />
         <Education />
+        <GitIgnore />
       </main>
     </Fragment>
   );

@@ -1,0 +1,24 @@
+.experiences {
+  margin-left: 1rem;
+}
+.indiexperience {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem 0;
+}
+.indiexp_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.indiexp_subheader {
+  display: flex;
+}
+.indiexp_title {
+  padding-right: 1rem;
+}
+.indiexp_timeline {
+  padding-left: 1rem;
+}

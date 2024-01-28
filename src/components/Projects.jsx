@@ -5,7 +5,7 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 const Projects = () => {
   return (
     <Fragment>
-      <div className="indimainblocks">
+      <div id="Projects" className="indimainblocks">
         <h3>Projects</h3>
         <hr />
         <div className="projectblock">
@@ -56,7 +56,6 @@ const Projects = () => {
                 Tech-Stack: ROS (Robot Operating System), Python3.x, C++.
               </p>
             </div>
-            <hr />
           </div>
         </div>
       </div>
