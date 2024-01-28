@@ -14,14 +14,19 @@ const Projects = () => {
               <div className="indiproject_title">
                 <h4>Quadruped Robot</h4>
                 <div className="linkblocks">
-                  <div className="linkblock secondary-border">
+                  {/* <div className="linkblock secondary-border">
                     <h5>Code</h5>
                     <FaArrowUpRightFromSquare />
-                  </div>
-                  <div className="linkblock secondary-border">
+                  </div> */}
+                  <a
+                    href="https://www.youtube.com/shorts/yfbJGc5DXPE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="linkblock secondary-border"
+                  >
                     <h5>View</h5>
                     <FaArrowUpRightFromSquare />
-                  </div>
+                  </a>
                 </div>
               </div>
               <p className="indiprojectcontent">
@@ -38,14 +43,19 @@ const Projects = () => {
               <div className="indiproject_title">
                 <h4>Delivery Drone</h4>
                 <div className="linkblocks">
-                  <div className="linkblock secondary-border">
+                  {/* <div className="linkblock secondary-border">
                     <h5>Code</h5>
                     <FaArrowUpRightFromSquare />
-                  </div>
-                  <div className="linkblock secondary-border">
+                  </div> */}
+                  <a
+                    href="https://www.youtube.com/watch?v=w7zr_ZOqLyo&feature=youtu.be"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="linkblock secondary-border"
+                  >
                     <h5>View</h5>
                     <FaArrowUpRightFromSquare />
-                  </div>
+                  </a>
                 </div>
               </div>
               <p className="indiprojectcontent">

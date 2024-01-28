@@ -13,10 +13,15 @@ const Experience = () => {
             <div className="indiexp_header">
               <div className="indiexp_subheader">
                 <h4 className="indiexp_title">Freelance</h4>
-                <div className="linkblock secondary-border">
+                <a
+                  href="https://www.freelancer.com/u/BrokeBros404"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="linkblock secondary-border"
+                >
                   <h5>View</h5>
                   <FaArrowUpRightFromSquare />
-                </div>
+                </a>
               </div>
               <p className="indiexp_timeline">Aug2023 - ongoing</p>
             </div>
@@ -33,10 +38,15 @@ const Experience = () => {
                 <h4 className="indiexp_title">
                   Nazareth Foundation: Worked on Solar Devices
                 </h4>
-                <div className="linkblock secondary-border">
+                <a
+                  href="https://drive.google.com/file/d/1bCS0mL95XOjqZlI06DIjlagYbdTEle3D/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="linkblock secondary-border"
+                >
                   <h5>Certificate</h5>
                   <FaArrowUpRightFromSquare />
-                </div>
+                </a>
               </div>
               <p className="indiexp_timeline">Jan2022 – Feb2022</p>
             </div>
@@ -52,10 +62,15 @@ const Experience = () => {
                 <h4 className="indiexp_title">
                   InhouseInternship: Machine learning Foundation
                 </h4>
-                <div className="linkblock secondary-border">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/3E3LM86W3TTV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="linkblock secondary-border"
+                >
                   <h5>Certificate</h5>
                   <FaArrowUpRightFromSquare />
-                </div>
+                </a>
               </div>
               <p className="indiexp_timeline">June2021 – July2022</p>
             </div>
