@@ -12,8 +12,10 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 1rem;
   margin-bottom: 0.5rem;
+}
+.indiproject_title h4 {
+  padding-right: 1rem;
 }
 .linkblocks {
   display: flex;

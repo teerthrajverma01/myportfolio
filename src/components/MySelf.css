@@ -17,6 +17,7 @@
 
 .contactitems {
   display: flex;
+  flex-wrap: wrap;
 }
 .indi_contactitem {
   display: flex;

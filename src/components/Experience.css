@@ -15,6 +15,8 @@
 }
 .indiexp_subheader {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
 }
 .indiexp_title {
   padding-right: 1rem;
