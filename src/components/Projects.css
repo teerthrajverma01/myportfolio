@@ -4,9 +4,17 @@
 
 .indiproject {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.indiprojectinfo {
+  display: flex;
   flex-direction: column;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-right: 3rem;
 }
 .indiproject_title {
   display: flex;
@@ -30,4 +38,27 @@
 
 .techstack {
   font-style: italic;
+}
+
+.indiprojectimgblock {
+  padding: 0.5rem;
+  background-color: var(--main-bg-color);
+}
+.indiprojectimg {
+  height: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .indiproject {
+    flex-direction: column;
+  }
+  .indiprojectinfo {
+    padding-right: 0;
+  }
+  .indiprojectimgblock {
+    width: fit-content;
+  }
+  .indiprojectimg {
+    height: 9rem;
+  }
 }
