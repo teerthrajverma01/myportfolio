@@ -12,7 +12,7 @@ const About = () => {
         <div className="aboutmesection">
           <div className="aboutmeinfo">
             <p>
-              Hello, I am a Frontend Developer who can develop web applications
+              Hello, I am a FullStack Developer who can develop web applications
               and pages using up-to-date technologies. I develop web
               applications using the React.JS library of the JavaScript
               programming language and related technologies. I am proficient in
